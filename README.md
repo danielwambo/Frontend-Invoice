@@ -3,7 +3,8 @@ Flutter Frontend
 Set-up Guidelines
 
 
-1. Clone the repository using terminal:
+1. Clone the repository using terminal or download zip file:
+   
            git clone https://github.com/danielwambo/Frontend-Invoice.git
 
 
