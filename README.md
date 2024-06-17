@@ -1,20 +1,20 @@
-#Flutter Frontend
+Flutter Frontend
 
-##Set-up Guidelines
+Set-up Guidelines
 
-###Clone the repository:
+Clone the repository:
 cd flutter-frontend
 
-###Install dependencies:
+Install dependencies:
 flutter pub get
 
-###Set up ApiService.dart:
+Set up ApiService.dart:
 Update baseUrl in services/api_service.dart to match your Laravel backend URL (http://localhost:8000/api).
 
-###Run the Flutter app:
+Run the Flutter app:
 flutter run
 
-##Usage
+Usage
 
 Creating Invoices: Use the Flutter app to create new invoices with descriptions and amounts.
 Initiating Payments: Initiate payments for invoices directly from the Flutter app.
