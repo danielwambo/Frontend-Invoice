@@ -5,7 +5,7 @@ Set-up Guidelines
 
 1. Clone the repository:
 
-                cd flutter-frontend
+                cd Frontend-Invoice
 
 
 
