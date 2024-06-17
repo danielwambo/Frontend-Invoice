@@ -30,5 +30,7 @@ Set-up Guidelines
 Usage
 
 Creating Invoices: Use the Flutter app to create new invoices with descriptions and amounts.
+
 Initiating Payments: Initiate payments for invoices directly from the Flutter app.
+
 Viewing Transactions: View transaction histories both in the Laravel backend (via API endpoints) and in the Flutter app.
