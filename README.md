@@ -3,19 +3,21 @@ Flutter Frontend
 Set-up Guidelines
 
 
-1. Clone the repository:
+1. Clone the repository using terminal:
+           git clone https://github.com/danielwambo/Frontend-Invoice.git
+
 
                 cd Frontend-Invoice
 
 
 
-2. Install dependencies:
+3. Install dependencies:
 
                 flutter pub get
 
 
 
-3. Set up ApiService.dart:
+4. Set up ApiService.dart:
 
  Update baseUrl in services/api_service.dart to match your Laravel backend URL (http://localhost:8000/api).
 
