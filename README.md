@@ -1,16 +1,21 @@
-# invoice
+#Flutter Frontend
 
-Invoice system dart
+##Set-up Guidelines
 
-## Getting Started
+###Clone the repository:
+cd flutter-frontend
 
-This project is a starting point for a Flutter application.
+###Install dependencies:
+flutter pub get
 
-A few resources to get you started if this is your first Flutter project:
+###Set up ApiService.dart:
+Update baseUrl in services/api_service.dart to match your Laravel backend URL (http://localhost:8000/api).
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+###Run the Flutter app:
+flutter run
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+##Usage
+
+Creating Invoices: Use the Flutter app to create new invoices with descriptions and amounts.
+Initiating Payments: Initiate payments for invoices directly from the Flutter app.
+Viewing Transactions: View transaction histories both in the Laravel backend (via API endpoints) and in the Flutter app.
