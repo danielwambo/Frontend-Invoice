@@ -2,20 +2,33 @@ Flutter Frontend
 
 Set-up Guidelines
 
+
 Clone the repository:
-cd flutter-frontend
+
+                cd flutter-frontend
+
+
 
 Install dependencies:
-flutter pub get
+
+                flutter pub get
+
+
 
 Set up ApiService.dart:
-Update baseUrl in services/api_service.dart to match your Laravel backend URL (http://localhost:8000/api).
+
+                Update baseUrl in services/api_service.dart to match your Laravel backend URL (http://localhost:8000/api).
+
+
 
 Run the Flutter app:
-flutter run
+
+                flutter run
+
+
 
 Usage
 
-Creating Invoices: Use the Flutter app to create new invoices with descriptions and amounts.
-Initiating Payments: Initiate payments for invoices directly from the Flutter app.
-Viewing Transactions: View transaction histories both in the Laravel backend (via API endpoints) and in the Flutter app.
+    Creating Invoices: Use the Flutter app to create new invoices with descriptions and amounts.
+    Initiating Payments: Initiate payments for invoices directly from the Flutter app.
+    Viewing Transactions: View transaction histories both in the Laravel backend (via API endpoints) and in the Flutter app.
